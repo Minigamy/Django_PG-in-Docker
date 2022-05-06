@@ -41,8 +41,8 @@ print(r.text)
 2) Ввести логин и пароль: 
  *     Логин: myemail@email.com
  *     Пароль: root
-![Скриншот](https://github.com/Minigamy/TCPchat/blob/5a5912fc33de84df0cdd1ea35a810eb0443ca454/img/chat.jpeg)
-<p align="center">Чат</p> 
+![Скриншот](https://github.com/Minigamy/Django_PG-in-Docker/blob/0abcb081a973670c7acaea74a0c0b810a2e85b8f/media/pgadmin_start.png)
+<p align="center">pgAdmin - Вход</p> 
 
 3) Во вкладке General заполняем поле Name. Можно выбрать любое имя.
 4) Во вкладке Connection необходимо заполнить следующие поля:
@@ -50,4 +50,7 @@ print(r.text)
  *     Port: 5432
  *     Username: root
  *     Password: root
+![Скриншот](https://github.com/Minigamy/Django_PG-in-Docker/blob/0abcb081a973670c7acaea74a0c0b810a2e85b8f/media/pgadmin_connect.png)
+<p align="center">pgAdmin - Подключение</p> 
+
 5) Save
