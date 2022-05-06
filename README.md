@@ -33,6 +33,9 @@ print(r.text)
 ```
 В аргументе `data={"question_num": <ваше значение>}` можно изменить значение на необходимое положительное целое число.
 После выполнения данного скрипта в терминале будет выведен текст последнего вопроса из БД или, если БД пустая, то вернется объект None.
+![Скриншот](https://github.com/Minigamy/Django_PG-in-Docker/blob/0abcb081a973670c7acaea74a0c0b810a2e85b8f/media/pgadmin_start.png)
+<p align="center">request - Результат</p> 
+
 ***
 ## `pgAdmin`
 
