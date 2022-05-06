@@ -1,0 +1,32 @@
+version: '3.8'
+
+
+# Чтобы подключиться к БД через PGadmin:
+# Host name/address: pg_db  (container_name)
+# Port: 5432   (тот который смотрит в контейнер)
+# Username: root
+# Password: root
+
+services:
+  db:
+    container_name: pg_db
+    image: postgres:14.2
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: root
+      POSTGRES_INITDB_ARGS: "-A md5"
+      POSTGRES_DB: my_db
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data/
+    ports:
+      - 54321:5432
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: myemail@email.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+    - 5050:80
