@@ -16,7 +16,7 @@
 1) Скачиваем/клонируем репозиторий `https://github.com/Minigamy/Django_PG-in-Docker.git`
 2) Устанавливаем зависимости из файла requirements.txt командой в терминале `pip install -r requirements.txt`
 3) Запускаем контейнер с Postgresql и pgAdmin командой в терминале `docker-compose up -d` (Обязательно должен быть установлен и запущен Docker)
-4) Запускаем миграцию командами: `python manage.py makemigrations` и `python manage.py migrate`
+4) Запускаем миграцию командой: `python manage.py migrate`
 5) Запускаем сервер `python manage.py runserver`
 
 Все, база данных и сервер полностью готовы к работе. Сервер принимает только POST-запросы, поэтому для отправки запроса можно воспользоваться программой Postman или скриптом `request.py`, расположенным в корне проекта. Далее идет описание варианта со скриптом.
