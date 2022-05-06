@@ -51,6 +51,6 @@ print(r.text)
  *     Username: root
  *     Password: root
 ![Скриншот](https://github.com/Minigamy/Django_PG-in-Docker/blob/0abcb081a973670c7acaea74a0c0b810a2e85b8f/media/pgadmin_connect.png)
-<p align="left">pgAdmin - Подключение</p> 
+<p align="center">pgAdmin - Подключение</p> 
 
 5) Сохраняем на кнопку `Save`
